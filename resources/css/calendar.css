@@ -1,0 +1,99 @@
+@font-face{ 
+	font-family: 'Coolvetica';
+	src: url('resources/coolvetica_rg-webfont.eot');
+}
+
+body {
+    font-family: Coolvetica, arial, sans-serif;
+    font-size: 14px;
+}
+
+.calendar {
+    border: 1px solid black;
+    width: 550px;
+    border-radius:5px;
+    text-align: center;
+}
+.calendarHeader {
+    color: white;
+    font-size: 2em;
+    height: 150px;
+    position: relative;
+    vertical-align: center;
+}
+.leftArrow {
+   position:absolute;
+   left: 20px;
+   top:55px;
+   }
+.rightArrow {
+   position:absolute;
+   right: 20px;
+   top:55px;
+}
+#monthName {
+    line-height: 150px;
+    font-size:75px;
+}
+.calendarHeader.january {
+    background-color: #4cb5cb;
+}
+.calendarHeader.february {
+    background-color: #a2aeda;
+}
+.calendarHeader.march {
+    background-color: #78c1c8;
+}
+.calendarHeader.april {
+    background-color: #fcb8d6;
+}
+.calendarHeader.may {
+    background-color: #c4df9b;
+}
+.calendarHeader.june {
+    background-color: #fcdf57;
+}
+.calendarHeader.july {
+    background-color: #f88e6e;
+}
+.calendarHeader.august {
+    background-color: #f9b58d;
+}
+.calendarHeader.september {
+    background-color: #b6af46;
+}
+.calendarHeader.october {
+    background-color: #f7941d;
+}
+.calendarHeader.november {
+    background-color: #5a6c41;
+}
+.calendarHeader.december {
+    background-color: #9aacc1;
+}
+.calendarData {
+    background-color: #e1e1e1;
+    color: #989898;
+}
+
+.calendar .calendarData ul {
+    font-size: 0;
+    margin: 0px;
+    padding: 0;
+}
+.calendar .calendarData li {
+    display: inline-block;
+    font-size: 14px;
+   padding:22px 0 22px 0;
+    margin: 0px;
+    box-sizing:border-box;
+    width: 14.2%;
+    font-size:25px;
+    
+}
+.dates {
+    border-top: 1px solid white;
+}
+.dates li {
+    border: 1px solid white;
+}
